@@ -179,7 +179,7 @@
 				<key>value</key>
 				<array>
 					<real>0.0</real>
-					<real>0.0</real>
+					<real>90</real>
 				</array>
 			</dict>
 			<dict>
@@ -212,10 +212,10 @@
 				<key>value</key>
 				<array>
 					<array>
+						<real>0.99999600648880005</real>
 						<real>1</real>
-						<real>0.80000001192092896</real>
-						<real>0.40000000596046448</real>
-						<real>0.75999999046325684</real>
+						<real>1</real>
+						<real>0.18000000715255737</real>
 					</array>
 					<array>
 						<real>0.071372650563716888</real>
@@ -233,10 +233,10 @@
 				<key>value</key>
 				<array>
 					<array>
-						<real>0.99999600648880005</real>
+						<real>0.40000000596046448</real>
+						<real>0.80000001192092896</real>
 						<real>1</real>
-						<real>1</real>
-						<real>0.30000001192092896</real>
+						<real>0.62999999523162842</real>
 					</array>
 					<array>
 						<real>0.066645599901676178</real>
@@ -373,7 +373,7 @@
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
-			<real>0.078129768371582031</real>
+			<real>0.0</real>
 			<key>position</key>
 			<real>0.0</real>
 			<key>resolution</key>

@@ -82,7 +82,7 @@ static const float MIN_SPEED = 5.f;
 }
 
 - (void)releaseCatapult {
-    if (_mouseJoint != nil) // QUESTION: why doesn't delete immediately?
+    if (_mouseJoint != nil)
     {
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
@@ -146,6 +146,17 @@ static const float MIN_SPEED = 5.f;
     }
 }
 
+- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair ice:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
+    float energy = [pair totalKineticEnergy];
+    
+    // if energy is large enough, remove the seal
+    if (energy > 5000.f) {
+        [[_physicsNode space] addPostStepBlock:^{
+            [self iceRemoved:nodeA];
+        } key:nodeA];
+    }
+}
+
 - (void)sealRemoved:(CCNode *)seal {
     
     // load particle effect
@@ -159,6 +170,22 @@ static const float MIN_SPEED = 5.f;
     
     // finally, remove the destroyed seal
     [seal removeFromParent];
+}
+
+- (void)iceRemoved:(CCNode *)ice {
+    // load particle effect
+    CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"IceExplosion"];
+    // make the particle effect clean itself up, once it is completed
+    explosion.autoRemoveOnFinish = TRUE;
+    // place the particle effect on the seals position
+    explosion.position = ice.position;
+    // add the particle effect to the same node the seal is on
+    [ice.parent addChild:explosion];
+    
+    // finally, remove the destroyed seal
+    [ice removeFromParent];
+    
+    [ice removeFromParent];
 }
 
 - (void)nextAttempt {
