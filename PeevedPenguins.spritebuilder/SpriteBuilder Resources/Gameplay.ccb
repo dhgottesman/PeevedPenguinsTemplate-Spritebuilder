@@ -16,7 +16,7 @@
 	<key>currentResolution</key>
 	<integer>0</integer>
 	<key>currentSequenceId</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>docDimensionsType</key>
 	<integer>2</integer>
 	<key>fileType</key>
@@ -55,8 +55,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>227</real>
-						<real>106</real>
+						<real>216</real>
+						<real>162.5</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -426,36 +426,78 @@
 											<real>0.0</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>177</real>
+											<real>-0.746124267578125</real>
+											<real>138.91291809082031</real>
 										</array>
 										<array>
-											<real>42</real>
-											<real>177</real>
+											<real>31.644500732421875</real>
+											<real>178.77619934082031</real>
 										</array>
 										<array>
-											<real>42</real>
-											<real>0.0</real>
+											<real>41.718719482421875</real>
+											<real>158.45979309082031</real>
+										</array>
+										<array>
+											<real>39.898406982421875</real>
+											<real>128.36604309082031</real>
+										</array>
+										<array>
+											<real>33.078094482421875</real>
+											<real>102.82698059082031</real>
+										</array>
+										<array>
+											<real>19.179656982421875</real>
+											<real>109.04573059082031</real>
+										</array>
+										<array>
+											<real>17.929656982421875</real>
+											<real>-0.3488006591796875</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>42</real>
-												<real>0.0</real>
-											</array>
-											<array>
-												<real>42</real>
-												<real>177</real>
-											</array>
-											<array>
-												<real>0.0</real>
-												<real>177</real>
+												<real>-0.746124267578125</real>
+												<real>138.91291809082031</real>
 											</array>
 											<array>
 												<real>0.0</real>
 												<real>0.0</real>
+											</array>
+											<array>
+												<real>17.929656982421875</real>
+												<real>-0.3488006591796875</real>
+											</array>
+											<array>
+												<real>19.179656982421875</real>
+												<real>109.04573059082031</real>
+											</array>
+										</array>
+										<array>
+											<array>
+												<real>19.179656982421875</real>
+												<real>109.04573059082031</real>
+											</array>
+											<array>
+												<real>33.078094482421875</real>
+												<real>102.82698059082031</real>
+											</array>
+											<array>
+												<real>39.898406982421875</real>
+												<real>128.36604309082031</real>
+											</array>
+											<array>
+												<real>41.718719482421875</real>
+												<real>158.45979309082031</real>
+											</array>
+											<array>
+												<real>31.644500732421875</real>
+												<real>178.77619934082031</real>
+											</array>
+											<array>
+												<real>-0.746124267578125</real>
+												<real>138.91291809082031</real>
 											</array>
 										</array>
 									</array>
@@ -2030,6 +2072,42 @@
 			<real>128</real>
 			<key>sequenceId</key>
 			<integer>0</integer>
+			<key>soundChannel</key>
+			<dict>
+				<key>isExpanded</key>
+				<false/>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>11</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>autoPlay</key>
+			<false/>
+			<key>callbackChannel</key>
+			<dict>
+				<key>keyframes</key>
+				<array/>
+				<key>type</key>
+				<integer>12</integer>
+			</dict>
+			<key>chainedSequenceId</key>
+			<integer>-1</integer>
+			<key>length</key>
+			<real>10</real>
+			<key>name</key>
+			<string>Untitled Timeline</string>
+			<key>offset</key>
+			<real>0.0</real>
+			<key>position</key>
+			<real>2.2666666507720947</real>
+			<key>resolution</key>
+			<real>30</real>
+			<key>scale</key>
+			<real>128</real>
+			<key>sequenceId</key>
+			<integer>1</integer>
 			<key>soundChannel</key>
 			<dict>
 				<key>isExpanded</key>
