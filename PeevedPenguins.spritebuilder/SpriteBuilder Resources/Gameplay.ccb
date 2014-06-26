@@ -165,7 +165,7 @@
 					<key>value</key>
 					<array>
 						<real>233</real>
-						<real>271</real>
+						<real>299</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -203,7 +203,7 @@
 					<key>value</key>
 					<array>
 						<real>0.0</real>
-						<real>-14</real>
+						<real>14</real>
 					</array>
 				</dict>
 				<dict>
