@@ -213,9 +213,9 @@
 				<array>
 					<array>
 						<real>1</real>
-						<real>0.80000001192092896</real>
-						<real>0.40000000596046448</real>
-						<real>0.75999999046325684</real>
+						<real>0.95565623044967651</real>
+						<real>0.81565749645233154</real>
+						<real>1</real>
 					</array>
 					<array>
 						<real>0.071372650563716888</real>
@@ -233,10 +233,10 @@
 				<key>value</key>
 				<array>
 					<array>
-						<real>0.99999600648880005</real>
 						<real>1</real>
 						<real>1</real>
-						<real>0.30000001192092896</real>
+						<real>1</real>
+						<real>1</real>
 					</array>
 					<array>
 						<real>0.066645599901676178</real>
