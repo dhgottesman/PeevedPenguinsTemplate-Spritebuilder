@@ -173,18 +173,17 @@ static const float MIN_SPEED = 5.f;
 }
 
 - (void)iceRemoved:(CCNode *)ice {
+    
     // load particle effect
     CCParticleSystem *explosion = (CCParticleSystem *)[CCBReader load:@"IceExplosion"];
     // make the particle effect clean itself up, once it is completed
     explosion.autoRemoveOnFinish = TRUE;
-    // place the particle effect on the seals position
+    // place the particle effect on the ice position
     explosion.position = ice.position;
-    // add the particle effect to the same node the seal is on
+    // add the particle effect to the ice node the seal is on
     [ice.parent addChild:explosion];
     
-    // finally, remove the destroyed seal
-    [ice removeFromParent];
-    
+    // finally, remove the destroyed ice
     [ice removeFromParent];
 }
 
