@@ -283,8 +283,8 @@
 				<string>FloatVar</string>
 				<key>value</key>
 				<array>
-					<real>300</real>
-					<real>300</real>
+					<real>50</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>
@@ -294,8 +294,8 @@
 				<string>FloatVar</string>
 				<key>value</key>
 				<array>
-					<real>85</real>
-					<real>1</real>
+					<real>0.0</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>
@@ -305,7 +305,7 @@
 				<string>FloatVar</string>
 				<key>value</key>
 				<array>
-					<real>-30</real>
+					<real>0.0</real>
 					<real>20</real>
 				</array>
 			</dict>
