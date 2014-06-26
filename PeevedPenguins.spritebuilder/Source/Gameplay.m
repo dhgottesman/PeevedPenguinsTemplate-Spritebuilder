@@ -82,7 +82,7 @@ static const float MIN_SPEED = 5.f;
 }
 
 - (void)releaseCatapult {
-    if (_mouseJoint != nil) // QUESTION: why doesn't delete immediately? & BOOLEAN?
+    if (_mouseJoint != nil) // QUESTION: why doesn't delete immediately?
     {
         // releases the joint and lets the catapult snap back
         [_mouseJoint invalidate];
