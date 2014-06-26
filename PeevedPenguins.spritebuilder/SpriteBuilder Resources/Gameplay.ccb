@@ -1055,7 +1055,7 @@
 										<key>type</key>
 										<string>StringSimple</string>
 										<key>value</key>
-										<string>pullbackNode</string>
+										<string></string>
 									</dict>
 									<dict>
 										<key>name</key>
@@ -1109,8 +1109,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1223,6 +1221,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
