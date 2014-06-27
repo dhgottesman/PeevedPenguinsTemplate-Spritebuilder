@@ -213,13 +213,13 @@
 				<array>
 					<array>
 						<real>1</real>
-						<real>0.96992111206054688</real>
-						<real>0.77301383018493652</real>
-						<real>1</real>
+						<real>0.50196081399917603</real>
+						<real>0.0</real>
+						<real>0.68999999761581421</real>
 					</array>
 					<array>
-						<real>0.50196081399917603</real>
-						<real>0.25098040699958801</real>
+						<real>0.066645599901676178</real>
+						<real>0.10375448316335678</real>
 						<real>0.0</real>
 						<real>1</real>
 					</array>
